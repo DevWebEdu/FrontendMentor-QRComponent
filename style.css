@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Chewy', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: lightskyblue;
+}
+
+.contenedor {
+    background-color: white;
+    width: 320px;
+    padding: 15px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.content-part {
+    margin: 20px 0;
+}
+
+.content-part>p {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.contenedor>img {
+    object-fit: cover;
+    max-width: 290px;
+    border-radius: 15px;
+}
+
+.content-part>.parrafo-uno {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.content-part>.parrafo-dos {
+    font-weight: 400;
+    font-size: 15px;
+    color: grey;
+}
